@@ -3,3 +3,207 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/* ------------------------------------------------------- */
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.spaceBtw {
+  justify-content: space-between;
+}
+
+.spaceEvenly {
+  justify-content: space-evenly;
+}
+
+/* ------------------------------------------------------- */
+
+/* widths */
+
+.maxWidth {
+  max-width: 1350px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width50 {
+  width: 50%;
+}
+.width49 {
+  width: 49%;
+}
+.width48 {
+  width: 48%;
+}
+
+.width24 {
+  width: 24%;
+}
+
+.width19 {
+  width: 19%;
+}
+
+/* ------------------------------------------------------- */
+
+/* margins - paddings */
+
+.marginUpDown {
+  margin: 1rem 0;
+}
+
+.marginBottom1 {
+  margin: 0 0 1rem 0;
+}
+
+.marginBottom2 {
+  margin: 0 0 2rem 0;
+}
+
+.marginUp1 {
+  margin: 1rem 0 0 0;
+}
+
+.marginUp2 {
+  margin: 2rem 0 0 0;
+}
+
+.margin {
+  margin: 1rem;
+}
+
+.paddingBottom1 {
+  padding: 0 0 1rem 0;
+}
+
+.paddingBottom2 {
+  padding: 0 0 2rem 0;
+}
+
+.paddingUp1 {
+  padding: 1rem 0 0 0;
+}
+
+.paddingUp2 {
+  padding: 2rem 0 0 0;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* border */
+.border {
+  border: 1px solid;
+}
+
+.borderRadius02 {
+  border-radius: 0.2rem;
+}
+
+.borderRadius03 {
+  border-radius: 0.3rem;
+}
+.borderRadius04 {
+  border-radius: 0.4rem;
+}
+.borderRadius05 {
+  border-radius: 0.5rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* fonts */
+.font300 {
+  font-weight: 300;
+}
+.font400 {
+  font-weight: 400;
+}
+.font500 {
+  font-weight: 500;
+}
+.font600 {
+  font-weight: 600;
+}
+.font700 {
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------- */
+
+/* text aligns */
+.textJustify {
+  text-align: justify;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
