@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
       </div> */}
       <nav className="flex flexColumn alignCenter justifyCenter width100">
-        <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth padding">
+        <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
           <div className="navLogo">
             <h1>3a Learning</h1>
           </div>
