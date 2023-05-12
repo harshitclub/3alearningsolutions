@@ -2,8 +2,10 @@ import "./style.css";
 
 const WhyChoose = () => {
   return (
-    <section className="WhyChoose">
-      <h1>Why Choose Section</h1>
+    <section className="whyChoose width100 flex alignCenter justifyCenter flexColumn">
+      <div className="whyChooseContainer width95 maxWidth padding">
+        <h1>Why Choose</h1>
+      </div>
     </section>
   );
 };
