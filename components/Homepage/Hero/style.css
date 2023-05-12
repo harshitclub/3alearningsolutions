@@ -1,0 +1,22 @@
+.hero {
+  margin: 3.5rem 0 0 0;
+
+  background-color: var(--bgColor);
+}
+
+.hero .heroContainer {
+  height: 50vh;
+}
+
+.hero .heroContainer .heroContainerLeft h1 {
+  color: var(--orange);
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hero .heroContainer .heroContainerLeft h2 {
+  color: var(--white);
+  font-weight: 300;
+  width: 90%;
+  letter-spacing: 0.1rem;
+}

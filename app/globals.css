@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bgColor: #1c1e24;
+  --black: #0a0a0a;
+  --black2: #212121;
+  --white: #fff;
+  --grey: #bfbfbf;
+  --orange: #ff6300;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -55,6 +64,10 @@ textarea {
   flex-direction: column;
 }
 
+.flexWrap {
+  flex-wrap: wrap;
+}
+
 .spaceBtw {
   justify-content: space-between;
 }
@@ -68,11 +81,15 @@ textarea {
 /* widths */
 
 .maxWidth {
-  max-width: 1350px;
+  max-width: 1450px;
 }
 
 .width100 {
   width: 100%;
+}
+
+.width95 {
+  width: 95%;
 }
 
 .width90 {
@@ -83,6 +100,10 @@ textarea {
   width: 80%;
 }
 
+.width70 {
+  width: 70%;
+}
+
 .width50 {
   width: 50%;
 }
@@ -91,6 +112,10 @@ textarea {
 }
 .width48 {
   width: 48%;
+}
+
+.width30 {
+  width: 30%;
 }
 
 .width24 {

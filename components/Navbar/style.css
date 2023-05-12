@@ -1,0 +1,42 @@
+header nav {
+  position: fixed;
+  z-index: 999;
+  height: 4rem;
+  top: 0;
+  background-color: var(--bgColor);
+  /* background-color: var(--black); */
+}
+
+header nav .navContainer .navLogo h1 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+header nav .navContainer .menu ul li a {
+  color: var(--white);
+  padding: 0.2rem 1.5rem;
+  /* font-size: 1.1rem; */
+}
+
+header nav .navContainer .menu ul li a:hover {
+  color: var(--orange);
+  transition: 0.3s;
+}
+
+header nav .navContainer .menu ul li .navContact {
+  border: 1px solid var(--orange);
+  border-radius: 0.2rem;
+  background-color: var(--bgColor);
+  color: var(--orange);
+}
+
+header nav .navContainer .menu ul li .navContact:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.navIcon {
+  margin: 0 0 -0.3rem 0;
+}
