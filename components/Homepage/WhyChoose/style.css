@@ -1,0 +1,39 @@
+.whyChoose {
+  padding: 6rem 0;
+}
+
+.whyChoose .whyChooseContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+.whyChoose .whyChooseContainer .whyChooseTab .whyChooseBox {
+  border: 1px dotted var(--grey2);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  height: 12rem;
+}
+
+.whyChoose .whyChooseContainer .whyChooseTab .whyChooseBox:hover {
+  border: 1px dotted var(--black);
+  transition: 0.3s;
+}
+
+.whyChoose .whyChooseContainer .whyChooseTab .whyChooseBox h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.whyChoose .whyChooseContainer .whyChooseTab .whyChooseBox h4 .whyIcon {
+  margin: 0 0 -0.25rem 0;
+  color: var(--orange);
+}
+
+.whyChoose .whyChooseContainer .whyChooseTab .whyChooseBox p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-weight: 300;
+}

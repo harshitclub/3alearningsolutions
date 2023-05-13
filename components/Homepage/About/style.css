@@ -39,6 +39,10 @@
   font-weight: 300;
 }
 
+.aboutSection .aboutSContainer .aboutSContent .downloadBtnP {
+  margin: 0 0 5rem 0;
+}
+
 .aboutSection .aboutSContainer .aboutSContent p a {
   color: var(--orange);
   border: 1px solid var(--orange);

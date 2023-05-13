@@ -30,14 +30,14 @@ const About = () => {
             clients. And, we use technology to create an engaging and effective
             learning experience for our users.
           </p>
-          <p className="marginBottom3">
+          <p className="downloadBtnP">
             <a href="/" className="downloadBtn">
               Download Brochure <RiArrowDownLine className="downloadIcon" />
             </a>
           </p>
 
           <h3>We specialize in 3P’s -</h3>
-          <div className="ptab flex alignCenter justifyCenter spaceBtw">
+          <div className="ptab flex alignCenter justifyCenter spaceBtw marginBottom2">
             <div className="pBox">
               <h4>
                 Product <RiArrowRightDownLine className="pTabIcon" />
@@ -90,6 +90,11 @@ const About = () => {
               </ul>
             </div>
           </div>
+          <p className="downloadBtnP">
+            <a href="/" className="downloadBtn">
+              Browse Courses Catelogue
+            </a>
+          </p>
         </div>
       </div>
     </section>

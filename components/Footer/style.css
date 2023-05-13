@@ -1,0 +1,54 @@
+footer {
+  background-color: var(--bgColor);
+}
+
+footer .footerContainer {
+  padding: 6rem 0 3rem 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 75%
+  );
+}
+
+.techFooter .techName {
+  border: 1px dotted var(--grey);
+  color: var(--grey);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  margin: 0 1rem 1rem 0;
+  opacity: 0.5;
+}
+
+footer .footerContainer .footer {
+  color: var(--white);
+  padding: 6rem 0;
+}
+
+footer .footerContainer .footer .footerTab h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+footer .footerContainer .footer .footerTab ul li {
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 300;
+}
+
+footer .footerContainer .footer .footerTab ul li a {
+  color: var(--white);
+}
+
+footer .footerContainer .footer .footerTab .footerIcon {
+  margin: 0 0 -0.25rem 0;
+  color: var(--orange);
+}
+
+footer .footerContainer .copyRight {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
