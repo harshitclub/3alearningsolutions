@@ -1,0 +1,96 @@
+.aboutSection {
+  background-color: var(--bgColor);
+  padding: 0 0 5rem 0;
+}
+
+.aboutSection .aboutSContainer {
+  padding: 3rem 0 0 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.2413340336134454) 0%,
+    rgba(255, 255, 255, 0) 52%
+  );
+  /* border-radius: 0.2rem; */
+}
+
+.aboutSection .aboutSContainer .aboutSContent {
+  color: var(--white);
+}
+
+.aboutSection .aboutSContainer .aboutSContent h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+.aboutSection .aboutSContainer .aboutSContent h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+}
+
+.aboutSection .aboutSContainer .aboutSContent p {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
+
+.aboutSection .aboutSContainer .aboutSContent p a {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.aboutSection .aboutSContainer .aboutSContent p a .downloadIcon {
+  margin: 0 0 -0.2rem 0;
+}
+
+.aboutSection .aboutSContainer .aboutSContent p a:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox {
+  width: 32.5%;
+  border: 1px dotted var(--grey2);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.16850490196078427) 0%,
+    rgba(255, 255, 255, 0) 75%
+  );
+}
+
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox:hover {
+  border: 1px dotted var(--white);
+
+  transition: 0.3s;
+}
+
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0 0 1rem 1rem;
+}
+
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox h4 .pTabIcon {
+  color: var(--orange);
+  margin: 0 0 -0.4rem 0;
+}
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox ul {
+  list-style: square;
+  margin: 0 0 0 1rem;
+}
+
+.aboutSection .aboutSContainer .aboutSContent .ptab .pBox ul li {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}

@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="flex flexColumn alignCenter justifyCenter width100">
         <div className="navContainer flex alignCenter justifyCenter spaceBtw width95 maxWidth">
           <div className="navLogo">
-            <h1>3a Learning</h1>
+            <h1>3a Learning Solutions</h1>
           </div>
           <div className="menu">
             <ul className="flex">
