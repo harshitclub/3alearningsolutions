@@ -37,7 +37,7 @@ export const technology = [
   { id: 36, technology: "DB2" },
   { id: 37, technology: "Team Building" },
   { id: 38, technology: "Supervising" },
-  { id: 39, technology: "Collaborating" },
+  { id: 39, technology: "Cyber Security" },
   { id: 40, technology: "Selling" },
   { id: 41, technology: "Interviewing" },
   { id: 42, technology: "Blockchain" },
@@ -48,5 +48,4 @@ export const technology = [
   { id: 47, technology: "PMP" },
   { id: 48, technology: "Kaizan" },
   { id: 49, technology: "AR/VR" },
-  { id: 50, technology: "Cyber Security" },
 ];
