@@ -10,6 +10,7 @@
   --black2: #212121;
   --white: #fff;
   --grey: #bfbfbf;
+  --grey2: #a9a9a9;
   --orange: #ff6300;
 }
 
@@ -139,7 +140,11 @@ textarea {
 }
 
 .marginBottom2 {
-  margin: 0 0 2rem 0;
+  margin: 0 0 2rem 0 !important;
+}
+
+.marginBottom3 {
+  margin: 0 0 3rem 0 !important;
 }
 
 .marginUp1 {

@@ -1,16 +1,19 @@
 .hero {
-  margin: 3.5rem 0 0 0;
+  padding: 3.5rem 0 0 0;
   background-color: var(--bgColor);
-  padding: 4rem 0 0 0;
 }
 
 .hero .heroContainer {
-  height: 85vh;
-  padding: 0 0 6rem 0;
-}
-
-.hero .heroContainer .heroCChild1 {
-  margin: 0 0 3rem 0;
+  height: 100vh;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.2413340336134454) 0%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  margin: -3.5rem 0 0 0;
+  padding: 4rem 0 0 0;
+  /* justify-content: space-evenly; */
 }
 
 .hero .heroContainer .heroCChild1 h1 {
@@ -38,30 +41,16 @@
   text-transform: uppercase;
 }
 
-.hero .heroContainer .heroCChild2 {
-  border: 1px solid var(--orange);
-}
-
 .hero .heroContainer .heroCChild2 .scoreBox {
-  width: 33.3%;
-  height: 8rem;
+  width: 32.5%;
+  height: 10rem;
+  border: 1px dotted var(--grey2);
+  border-radius: 0.2rem;
 }
 
 .hero .heroContainer .heroCChild2 .scoreBox:hover {
-  background: rgb(255, 99, 0);
-  background: radial-gradient(
-    circle,
-    rgba(255, 99, 0, 0.8240546218487395) -50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.hero .heroContainer .heroCChild2 .scoreBox1 {
-  border-right: 1px solid var(--orange);
-}
-
-.hero .heroContainer .heroCChild2 .scoreBox2 {
-  border-right: 1px solid var(--orange);
+  border: 1px dotted var(--white);
+  transition: 0.3s;
 }
 
 .hero .heroContainer .heroCChild2 .scoreBox p {

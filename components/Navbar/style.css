@@ -3,7 +3,8 @@ header nav {
   z-index: 999;
   height: 4rem;
   top: 0;
-  background-color: var(--bgColor);
+  /* background-color: var(--bgColor); */
+  background: transparent;
   /* background-color: var(--black); */
 }
 
