@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="hero width100 flex alignCenter justifyStart flexColumn">
       <div className="heroContainer width95 maxWidth flex alignStart justifyCenter flexColumn spaceEvenly">
         <div className="heroCChild1 width70">
-          <h1 className="marginBottom1">3A LEARNING SOLUTIONS</h1>
+          <h1 className="marginBottom1">3a Learning Solutions</h1>
           <h2>
             Enhance your company's competitiveness with our comprehensive
             corporate training solutions

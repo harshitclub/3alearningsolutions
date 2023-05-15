@@ -1,0 +1,25 @@
+.contactSection {
+  background-color: var(--bgColor);
+}
+
+.contactSection .contactSContainer {
+  padding: 6rem 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+}
+
+.contactSection .contactSContainer .contactSCLeft {
+  border: 1px solid white;
+  padding: 1rem 2rem 0 2rem;
+  background-color: var(--white);
+}
+
+.contactSection .contactSContainer .contactSCLeft h2 {
+  font-weight: 300;
+  font-weight: 2rem;
+  margin: 0 0 2rem 0;
+}

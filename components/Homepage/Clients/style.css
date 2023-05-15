@@ -1,0 +1,48 @@
+.clientSection .clientSContainer {
+  padding: 1rem 0 3rem 0;
+}
+
+.clientSection .clientSContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.clientSection .clientSContainer p {
+  font-size: 1.3rem;
+  margin: 0 0 2rem 0;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
+
+.clientSection .clientSContainer .clientTab {
+  gap: 5px;
+  width: 80%;
+  margin: 0 0 0.3rem 0;
+}
+
+.clientSection .clientSContainer .clientTab .clientBox {
+  /* background-color: rgba(28, 30, 36, 0.5); */
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  border: 1px dotted var(--grey2);
+  border-radius: 0.2rem;
+  padding: 1rem;
+}
+
+.clientSection .clientSContainer .clientTab .clientBox img {
+  width: 80%;
+  height: auto;
+  /* background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.2413340336134454) 0%,
+    rgba(255, 255, 255, 0) 92%
+  ); */
+  /* -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); */
+}

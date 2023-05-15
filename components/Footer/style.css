@@ -8,7 +8,7 @@ footer .footerContainer {
   background: radial-gradient(
     circle,
     rgba(255, 99, 0, 0.1881127450980392) 0%,
-    rgba(255, 255, 255, 0) 75%
+    rgba(255, 255, 255, 0) 74%
   );
 }
 
@@ -18,22 +18,21 @@ footer .footerContainer {
   padding: 1rem;
   border-radius: 0.2rem;
   margin: 0 1rem 1rem 0;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 footer .footerContainer .footer {
   color: var(--white);
-  padding: 6rem 0;
+  padding: 6rem 0 3rem 0;
 }
 
 footer .footerContainer .footer .footerTab h4 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin: 0 0 1rem 0;
 }
 
 footer .footerContainer .footer .footerTab ul li {
-  font-size: 1rem;
   margin: 0 0 0.5rem 0;
   font-weight: 300;
 }
@@ -47,8 +46,26 @@ footer .footerContainer .footer .footerTab .footerIcon {
   color: var(--orange);
 }
 
+footer .footerContainer .footer .footerTab .footerContactBtn {
+  color: var(--orange);
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  border: 1px solid var(--orange);
+}
+
+footer .footerContainer .footer .footerTab .footerContactBtn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  transition: 0.3s;
+}
+
+footer .footerContainer .footerHr {
+  border-bottom: 1px dotted var(--grey2);
+  width: 100%;
+  margin: 0 0 3rem 0;
+}
+
 footer .footerContainer .copyRight {
   color: var(--white);
-  font-size: 1.2rem;
   font-weight: 300;
 }
