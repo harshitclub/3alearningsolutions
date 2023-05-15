@@ -11,13 +11,18 @@ import unitedHealth from "../../../public/clients/unitedhealth.png";
 import videocon from "../../../public/clients/videocon.png";
 import nivea from "../../../public/clients/nivea.png";
 import lg from "../../../public/clients/lg.png";
+import fiserv from "../../../public/clients/fiserv.png";
+import adobe from "../../../public/clients/adobe.png";
+import gemalto from "../../../public/clients/gemalto.png";
+import serco from "../../../public/clients/Serco.png";
 import Image from "next/image";
 
 const Clients = () => {
   return (
     <section className="clientSection width100 flex alignCenter justifyCenter flexColumn">
-      <div className="clientSContainer width95 maxWidth flex alignCenter justifyCenter flexColumn">
+      <div className="clientSContainer width95 maxWidth flex alignStart justifyCenter flexColumn">
         <h2>OUR CLIENTS</h2>
+        <div className="clientHr"></div>
         <p>
           Empowering professionals globally with our training solutions - 80+
           companies and counting.
@@ -39,10 +44,19 @@ const Clients = () => {
             <Image src={hcl} />
           </div>
           <div className="clientBox">
+            <Image src={fiserv} />
+          </div>
+          <div className="clientBox">
+            <Image src={serco} />
+          </div>
+          <div className="clientBox">
             <Image src={nivea} />
           </div>
         </div>
         <div className="clientTab flex alignCenter justifyCenter">
+          <div className="clientBox">
+            <Image src={adobe} />
+          </div>
           <div className="clientBox">
             <Image src={landt} />
           </div>
@@ -57,6 +71,9 @@ const Clients = () => {
           </div>
           <div className="clientBox">
             <Image src={videocon} />
+          </div>
+          <div className="clientBox">
+            <Image src={gemalto} />
           </div>
           <div className="clientBox">
             <Image src={lg} />
