@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="footer width100 flex spaceBtw alignStart justifyCenter">
           <div className="footerTab">
             <h4>
-              Pages <RiArrowRightDownLine className="footerIcon" />
+              PAGES <RiArrowRightDownLine className="footerIcon" />
             </h4>
             <ul>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
           <div className="footerTab">
             <h4>
-              Industries <RiArrowRightDownLine className="footerIcon" />
+              INDUSTRIES <RiArrowRightDownLine className="footerIcon" />
             </h4>
             <ul>
               <li>
@@ -74,28 +74,45 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
           <div className="footerTab">
             <h4>
-              Company <RiArrowRightDownLine className="footerIcon" />
+              COMPANY <RiArrowRightDownLine className="footerIcon" />
             </h4>
             <ul>
               <li>
-                <a href="/">About Us</a>
+                <a href="/">About</a>
               </li>
               <li>
-                <a href="/">Contact Us</a>
-              </li>
-              <li>
-                <a href="/">Register</a>
+                <a href="/">Contact</a>
               </li>
               <li>
                 <a href="/">Programs</a>
+              </li>
+              <li>
+                <a href="/">Join Us</a>
+              </li>
+              <li>
+                <a href="/">Register</a>
               </li>
             </ul>
           </div>
           <div className="footerTab">
             <h4>
-              Legal <RiArrowRightDownLine className="footerIcon" />
+              SOCIAL <RiArrowRightDownLine className="footerIcon" />
+            </h4>
+            <ul>
+              <li>
+                <a href="/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="/">Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footerTab">
+            <h4>
+              LEGAL <RiArrowRightDownLine className="footerIcon" />
             </h4>
             <ul>
               <li>
@@ -107,9 +124,14 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footerTab">
-            <h4>3a Learning Solutions</h4>
+            <a href="/">
+              <div className="footerContactBtn">
+                <p>CONTACT</p>
+              </div>
+            </a>
           </div>
         </div>
+        <div className="footerHr"></div>
         <div className="copyRight width100 flex alignCenter justifyCenter">
           <p>© Copyright 2023 | 3a Learning Solutions India Pvt. Ltd</p>
         </div>

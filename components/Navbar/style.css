@@ -1,3 +1,7 @@
+.sNav nav {
+  background-color: var(--bgColor);
+}
+
 header nav {
   position: fixed;
   z-index: 999;
@@ -14,10 +18,35 @@ header nav .navContainer .navLogo h1 {
   color: var(--white);
 }
 
+header nav .navContainer .menu ul li {
+  position: relative;
+}
+
 header nav .navContainer .menu ul li a {
   color: var(--white);
   padding: 0.2rem 1.5rem;
   /* font-size: 1.1rem; */
+}
+
+/* dropdown menu */
+header nav .navContainer .menu ul li ul {
+  display: none;
+  padding: 0.5rem;
+  width: 14rem;
+  background-color: var(--bgColor);
+}
+
+header nav .navContainer .menu ul li ul .dropDownFirstLi {
+  margin: 1rem 0 0 0;
+}
+
+header nav .navContainer .menu ul li ul li {
+  margin: 1rem 0 0 0;
+}
+
+header nav .navContainer .menu ul .dropDownMenu:hover ul {
+  display: block;
+  position: absolute;
 }
 
 header nav .navContainer .menu ul li a:hover {
@@ -28,7 +57,7 @@ header nav .navContainer .menu ul li a:hover {
 header nav .navContainer .menu ul li .navContact {
   border: 1px solid var(--orange);
   border-radius: 0.2rem;
-  background-color: var(--bgColor);
+  /* background-color: var(--bgColor); */
   color: var(--orange);
 }
 
