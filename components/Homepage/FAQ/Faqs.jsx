@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import "./style.css";
 import { RiArrowDownSLine } from "react-icons/ri";
-import { faqs } from "./faq";
+import { faqs } from "./faqData";
 
 const faqTab1 = faqs.slice(0, 2);
 const faqTab2 = faqs.slice(2, 4);
 const faqTab3 = faqs.slice(4, 6);
 const faqTab4 = faqs.slice(6, 8);
 
-function Faq() {
+const Faqs = () => {
   const [selectedQuestion, setSelectedQuestion] = useState(null);
 
   const handleQuestionClick = (index) => {
@@ -115,6 +115,6 @@ function Faq() {
       </div>
     </section>
   );
-}
+};
 
-export default Faq;
+export default Faqs;
