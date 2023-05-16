@@ -1,4 +1,3 @@
-import { RiArrowRightDownLine } from "react-icons/ri";
 import "./style.css";
 
 const WhyChoose = () => {
@@ -8,10 +7,8 @@ const WhyChoose = () => {
         <h2>WHY CHOOSE US</h2>
         <div className="whyChooseTab flex alignCenter justifyCenter spaceBtw marginBottom1">
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Outcome-Centric Learning{" "}
-              <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Outcome-Centric Learning </h4>
+            <div className="whyHr"></div>
             <p>
               Our training programs are designed with one primary goal in mind -
               to help you achieve your desired outcomes. We work closely with
@@ -21,10 +18,8 @@ const WhyChoose = () => {
             </p>
           </div>
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Customized Programs Delivered{" "}
-              <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Customized Programs Delivered </h4>
+            <div className="whyHr"></div>
             <p>
               We understand that every individual and organization is unique,
               which is why we offer customized training programs tailored to
@@ -36,9 +31,8 @@ const WhyChoose = () => {
         </div>
         <div className="whyChooseTab flex alignCenter justifyCenter spaceBtw marginBottom1">
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Pre & Post Assessment <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Pre & Post Assessment </h4>
+            <div className="whyHr"></div>
             <p>
               We believe that assessment is critical to the learning process.
               That's why we offer pre and post-assessments to measure the
@@ -46,9 +40,8 @@ const WhyChoose = () => {
             </p>
           </div>
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Post-Training Support <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Post-Training Support </h4>
+            <div className="whyHr"></div>
             <p>
               Our commitment to your success doesn't end when the training
               program does. We offer post-training support to help you apply
@@ -59,10 +52,8 @@ const WhyChoose = () => {
         </div>
         <div className="whyChooseTab flex alignCenter justifyCenter spaceBtw marginBottom1">
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Individual Assessment in Behavioral Aspects{" "}
-              <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Individual Assessment in Behavioral Aspects </h4>
+            <div className="whyHr"></div>
             <p>
               We offer individual assessments in behavioral aspects to help you
               gain insights into your strengths and areas for improvement. This
@@ -71,10 +62,8 @@ const WhyChoose = () => {
             </p>
           </div>
           <div className="whyChooseBox width49 flex flexColumn alignStart justifyCenter">
-            <h4>
-              Infrastructure & Lab Support Pan India{" "}
-              <RiArrowRightDownLine className="whyIcon" />
-            </h4>
+            <h4>Infrastructure & Lab Support Pan India </h4>
+            <div className="whyHr"></div>
             <p>
               3a Learning Solutions have a robust infrastructure and lab support
               network across India, ensuring that you have access to the

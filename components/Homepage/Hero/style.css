@@ -64,3 +64,39 @@
   color: var(--orange);
   font-weight: 300;
 }
+
+/* media queries */
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .hero {
+    padding: 8rem 0 0 0;
+  }
+  .hero .heroContainer {
+    height: auto;
+    /* padding: 3rem 0; */
+  }
+  .hero .heroContainer .heroCChild1 {
+    width: 100%;
+    margin: 0 0 6rem 0;
+  }
+  .hero .heroContainer .heroCChild1 h1 {
+    font-size: 2rem;
+  }
+
+  .hero .heroContainer .heroCChild1 h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .hero .heroContainer .heroCChild1 h3 {
+    font-size: 1.2rem;
+  }
+
+  .hero .heroContainer .heroCChild2 {
+    flex-direction: column;
+  }
+
+  .hero .heroContainer .heroCChild2 .scoreBox {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+}
