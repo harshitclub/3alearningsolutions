@@ -32,7 +32,7 @@
 }
 
 .aboutSection .aboutSContainer .aboutSContent p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 0 0 1rem 0;
   text-align: justify;
   line-height: 1.8rem;
@@ -97,4 +97,41 @@
 .aboutSection .aboutSContainer .aboutSContent .ptab .pBox ul li {
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .aboutSection .aboutSContainer {
+    background: rgb(255, 99, 0);
+    background: radial-gradient(
+      circle,
+      rgba(255, 99, 0, 0.2413340336134454) 0%,
+      rgba(255, 255, 255, 0) 22%
+    );
+    /* border-radius: 0.2rem; */
+  }
+  .aboutSection .aboutSContainer .aboutSContent h2 {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .aboutSection .aboutSContainer .aboutSContent p {
+    font-size: 1.1rem;
+  }
+
+  .aboutSection .aboutSContainer .aboutSContent h3 {
+    font-size: 1.5rem;
+  }
+
+  .aboutSection .aboutSContainer .aboutSContent .ptab {
+    flex-direction: column;
+  }
+
+  .aboutSection .aboutSContainer .aboutSContent .ptab .pBox {
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  .aboutSection .aboutSContainer .aboutSContent .ptab .pBox h4 {
+    font-size: 1.5rem;
+  }
 }

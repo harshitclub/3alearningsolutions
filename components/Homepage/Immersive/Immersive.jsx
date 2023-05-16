@@ -1,4 +1,3 @@
-import { RiArrowRightDownLine } from "react-icons/ri";
 import "./style.css";
 
 const Immersive = () => {
@@ -17,9 +16,7 @@ const Immersive = () => {
         </p>
         <div className="immersiveTab flex alignStart justifyCenter spaceBtw marginBottom1">
           <div className="immersiveBox">
-            <h4>
-              Our Approach <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Our Approach</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Our digital learning approach is unique and agile. We're leaders
@@ -28,9 +25,7 @@ const Immersive = () => {
             </p>
           </div>
           <div className="immersiveBox">
-            <h4>
-              Rich Content <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Rich Content</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Our customized content builds retention and application to work,
@@ -38,9 +33,7 @@ const Immersive = () => {
             </p>
           </div>
           <div className="immersiveBox">
-            <h4>
-              Technology <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Technology</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Our experienced team of developers and designers use the latest
@@ -51,10 +44,7 @@ const Immersive = () => {
         </div>
         <div className="immersiveTab flex alignStart justifyCenter spaceBtw marginBottom1">
           <div className="immersiveBox">
-            <h4>
-              Flexible Learning Solutions{" "}
-              <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Flexible Learning Solutions</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Flexible digital learning solutions tailored to your needs.
@@ -62,10 +52,7 @@ const Immersive = () => {
             </p>
           </div>
           <div className="immersiveBox">
-            <h4>
-              Relevant Curriculum{" "}
-              <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Relevant Curriculum</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Our courses keep you up-to-date with the latest industry trends
@@ -74,10 +61,7 @@ const Immersive = () => {
             </p>
           </div>
           <div className="immersiveBox">
-            <h4>
-              Support and Mentoring{" "}
-              <RiArrowRightDownLine className="immersiveIcon" />
-            </h4>
+            <h4>Support and Mentoring</h4>
             <div className="immersiveBoxHr"></div>
             <p>
               Post-training support and mentoring to apply learning in your

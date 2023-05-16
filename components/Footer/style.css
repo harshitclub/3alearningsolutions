@@ -69,3 +69,23 @@ footer .footerContainer .copyRight {
   color: var(--white);
   font-weight: 300;
 }
+
+/* media queries */
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  footer .footer {
+    flex-direction: column;
+  }
+
+  footer .footerContainer {
+    background: rgb(255, 99, 0);
+    background: radial-gradient(
+      circle,
+      rgba(255, 99, 0, 0.1881127450980392) 0%,
+      rgba(255, 255, 255, 0) 15%
+    );
+  }
+
+  footer .footerContainer .footer .footerTab {
+    margin: 0 0 2rem 0;
+  }
+}

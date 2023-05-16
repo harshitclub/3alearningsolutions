@@ -70,3 +70,10 @@ header nav .navContainer .menu ul li .navContact:hover {
 .navIcon {
   margin: 0 0 -0.3rem 0;
 }
+
+/* media queries */
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  header nav .navContainer .menu {
+    display: none;
+  }
+}
