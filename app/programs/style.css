@@ -1,0 +1,102 @@
+.program .programHeader {
+  padding: 4rem 0 0 0;
+  height: 15rem;
+  background-color: var(--bgColor);
+}
+
+.program .programHeader h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.program .programContainer {
+  padding: 2rem 0;
+}
+
+.program .programContainer .programCDivider {
+  border-left: 2px dotted var(--grey2);
+  height: 30rem;
+  margin: 0 1rem;
+}
+
+.program .programContainer .programCLeft .programSelectTab .programSLeft {
+  margin: 0 0 2rem 0;
+}
+
+.program .programContainer .programCLeft .programSelectTab .programSLeft h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.program
+  .programContainer
+  .programCLeft
+  .programSelectTab
+  .programSLeft
+  select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  border: 1px solid var(--grey2);
+  outline: none;
+}
+
+.program .programContainer .programCLeft .programSelectTab .programSRight h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.program
+  .programContainer
+  .programCLeft
+  .programSelectTab
+  .programSRight
+  select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+  border: 1px solid var(--grey2);
+  outline: none;
+}
+
+/* program right */
+
+.program .programContainer .programCRight h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.program .programContainer .programCRight .programCNullHeading {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.program .programContainer .programCRight .programCNullHeading2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.program .programContainer .programCRight .programContentHr {
+  border-bottom: 2px solid var(--orange);
+  margin: 0.5rem 0 1rem 0;
+  width: 20%;
+}
+
+.program .programContainer .programCRight ul {
+  list-style: numeric;
+  list-style-position: inside;
+}
+
+.program .programContainer .programCRight ul li {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 300;
+}

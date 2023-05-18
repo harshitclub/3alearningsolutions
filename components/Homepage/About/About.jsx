@@ -91,7 +91,7 @@ const About = () => {
             </div>
           </div>
           <p className="downloadBtnP">
-            <a href="/" className="downloadBtn">
+            <a href="/programs" className="downloadBtn">
               Browse Courses Catelogue
             </a>
           </p>

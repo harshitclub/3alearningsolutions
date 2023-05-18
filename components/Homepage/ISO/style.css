@@ -1,0 +1,47 @@
+.certifications {
+  background-color: #f5f5f5;
+}
+
+.certifications .certiContainer {
+  padding: 3rem 0;
+}
+
+.certifications .certiContainer h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+.certifications .certiContainer .certiTab h3 {
+  font-size: 1.5rem;
+  color: var(--orange);
+  margin: 0 0 0.2rem 0;
+}
+
+.certifications .certiContainer .certiTab p {
+  color: var(--orange);
+  margin: 0 0 1rem 0;
+}
+
+.certifications .certiContainer .certiTab .certiContent p {
+  color: #5a5a5a;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.certifications .certiContainer .certiTab .certiContent p span {
+  font-weight: 500;
+}
+
+.certifications .certiContainer .certiTab .certiContent .certiCLeft {
+  background-color: var(--white);
+  padding: 2rem 1rem;
+}
+
+.certifications .certiContainer .certiTab .certiContent .certiCRight {
+  background-color: var(--white);
+  padding: 2rem 1rem;
+}
