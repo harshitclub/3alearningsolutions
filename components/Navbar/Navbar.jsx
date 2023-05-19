@@ -33,35 +33,33 @@ const Navbar = () => {
                 <a href="/">HOME</a>
               </li>
               <li className="dropDownMenu">
-                <a href="/">
-                  TRAINING <RiArrowDownSLine className="navIcon" />
-                </a>
+                TRAINING <RiArrowDownSLine className="navIcon" />
                 <ul>
                   <li className="dropDownFirstLi">
-                    <a href="/">CORPORATE</a>
+                    <a href="/corporate">CORPORATE</a>
                   </li>
                   <li>
-                    <a href="/">INDIVIDUAL</a>
+                    <a href="/individual">INDIVIDUAL</a>
                   </li>
                   <li>
-                    <a href="/">CALENDAR</a>
+                    <a href="/calendar">CALENDAR</a>
                   </li>
                   <li>
-                    <a href="/">E-LEARNING</a>
+                    <a href="/e-learning">E-LEARNING</a>
                   </li>
                   <li>
-                    <a href="/">EVENTS</a>
+                    <a href="/events">EVENTS</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/">INDUSTRIES</a>
+                <a href="/industries">INDUSTRIES</a>
               </li>
               <li>
-                <a href="/">COMPANY</a>
+                <a href="/company">COMPANY</a>
               </li>
               <li>
-                <a href="/" className="navContact">
+                <a href="/contact" className="navContact">
                   CONTACT
                 </a>
               </li>

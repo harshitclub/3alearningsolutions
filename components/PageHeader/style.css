@@ -1,0 +1,20 @@
+.pageHeader {
+  background-color: var(--bgColor);
+}
+
+.pageHeader .pageHeading {
+  height: 15rem;
+  padding: 4rem 0 0 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.4431022408963585) -50%,
+    rgba(255, 255, 255, 0) 15%
+  );
+}
+
+.pageHeader h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--white);
+}

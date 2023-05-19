@@ -1099,10 +1099,7 @@ const page = () => {
   };
 
   return (
-    <main className="program flex alignCenter justifyCenter flexColumn">
-      <div className="programHeader flex alignCenter justifyCenter width100">
-        <h1>Browse Programs</h1>
-      </div>
+    <section className="program flex alignCenter justifyCenter flexColumn width95">
       <div className="programContainer width95 maxWidth flex justifyCenter alignStart spaceBtw">
         <div className="programCLeft width48">
           <div className="programSelectTab width100">
@@ -1144,7 +1141,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 

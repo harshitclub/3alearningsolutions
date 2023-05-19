@@ -20,6 +20,7 @@ header nav .navContainer .navLogo h1 {
 
 header nav .navContainer .menu ul li {
   position: relative;
+  color: var(--white);
 }
 
 header nav .navContainer .menu ul li a {

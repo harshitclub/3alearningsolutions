@@ -115,6 +115,12 @@ textarea {
 .width48 {
   width: 48%;
 }
+.width45 {
+  width: 45%;
+}
+.width40 {
+  width: 40%;
+}
 
 .width30 {
   width: 30%;
@@ -141,8 +147,12 @@ textarea {
   margin: 1rem 0;
 }
 
+.marginBottom05 {
+  margin: 0 0 0.5rem 0 !important;
+}
+
 .marginBottom1 {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem 0 !important;
 }
 
 .marginBottom2 {

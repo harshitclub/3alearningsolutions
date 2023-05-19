@@ -1,0 +1,58 @@
+.contact .contactBody {
+  background-color: var(--bgColor);
+}
+
+.contact .contactBody .contactTab {
+  padding: 3rem 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
+}
+
+.contact .contactBody .contactTab .contactLeft {
+  background-color: var(--white);
+  padding: 1rem 2rem;
+}
+
+.contact .contactBody .contactTab .contactLeft h2 {
+  font-weight: 300;
+  font-weight: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.contact .contactBody .contactTab .contactRight {
+  color: var(--white);
+}
+
+.contact .contactBody .contactTab .contactRight h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 1.5rem 0;
+}
+
+.contact .contactBody .contactTab .contactRight h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.contact .contactBody .contactTab .contactRight .cDivider {
+  width: 5%;
+  border-bottom: 2px solid var(--orange);
+  margin: 0.3rem 0;
+}
+
+.contact .contactBody .contactTab .contactRight h3 .cIcons {
+  margin: 0 0 -0.2rem 0;
+}
+
+.contact .contactBody .contactTab .contactRight p {
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+.contact .contactBody .contactTab .contactRight p a {
+  color: var(--white);
+}
