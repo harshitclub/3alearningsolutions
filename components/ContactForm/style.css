@@ -43,3 +43,9 @@ form button {
   color: var(--white);
   cursor: pointer;
 }
+
+form button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  transition: 0.3s;
+}

@@ -59,7 +59,7 @@ function ContactForm() {
           <textarea placeholder="Enter Your Message" rows="5" />
         </div>
       </div>
-      <div className="cFormTab flex alignCenter justifyCenter width100 marginBottom1">
+      <div className="cFormTab flex alignCenter justifyCenter width100 ">
         <button type="submit">Submit</button>
       </div>
     </form>

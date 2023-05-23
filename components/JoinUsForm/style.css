@@ -1,0 +1,7 @@
+.joinUsContainer {
+  background-color: var(--bgColor);
+}
+
+.joinUsContainer .joinUsContainerLeft {
+  padding: 0 1rem 0 3rem;
+}
