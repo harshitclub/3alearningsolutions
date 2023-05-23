@@ -2,68 +2,10 @@
   background-color: var(--bgColor);
 }
 
-.eLearningBody .eLearningTab {
-  padding: 3rem 0;
-  background: rgb(255, 99, 0);
-  background: radial-gradient(
-    circle,
-    rgba(255, 99, 0, 0.1881127450980392) 0%,
-    rgba(255, 255, 255, 0) 40%
-  );
-}
-
-.eLearningBody .eLearningTab .eLearningLeft {
-  padding: 1rem;
-  background-color: var(--white);
-}
-
-.eLearningBody .eLearningTab .eLearningLeft h2 {
-  font-weight: 300;
-  font-weight: 2rem;
-  margin: 0 0 2rem 0;
-}
-
-.eLearningBody .eLearningTab .eLearningRight {
-  color: var(--white);
-  width: 53%;
-  background: rgb(255, 99, 0);
-  background: radial-gradient(
-    circle,
-    rgba(255, 99, 0, 0.1881127450980392) 0%,
-    rgba(255, 255, 255, 0) 30%
-  );
-}
-
-.eLearningBody .eLearningTab .eLearningRight h2 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.eLearningBody .eLearningTab .eLearningRight h3 {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-.eLearningBody .eLearningTab .eLearningRight .eDivider {
-  width: 15%;
-  margin: 0.5rem 0 2rem 0;
-  border-bottom: 2px solid var(--orange);
-}
-
-.eLearningBody .eLearningTab .eLearningRight h3 span {
-  font-size: 1.2rem;
-}
-
-.eLearningBody .eLearningTab .eLearningRight p {
-  font-size: 1.1rem;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.5rem;
-}
-
 .eLearningExperties .eLearningETab h2 {
   font-size: 2rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 .eLearningExperties .eLearningETab {
@@ -83,20 +25,42 @@
   line-height: 1.5rem;
 }
 
+.eLearningExperties .eLearningETab .eLearningEBoxes {
+  margin: 0 0 0.5rem 0;
+}
+
 .eLearningExperties .eLearningETab .eLearningEBoxes .eLearningBox {
-  width: 24%;
-  border: 1px dotted var(--grey2);
-  padding: 0.5rem;
+  width: 33%;
+  border: 1px dotted var(--bgColor);
+  background-color: var(--bgColor);
+  color: var(--white);
   border-radius: 0.2rem;
+}
+
+.eLearningExperties
+  .eLearningETab
+  .eLearningEBoxes
+  .eLearningBox
+  .eLearningBoxBg {
+  padding: 0.5rem;
   height: 12rem;
+
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 40%
+  );
 }
 
 .eLearningExperties .eLearningETab .eLearningEBoxes .eLearningBox:hover {
-  border: 1px dotted var(--orange);
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+  color: var(--black);
   transition: 0.3s;
 }
 
@@ -115,4 +79,68 @@
   text-align: justify;
   font-weight: 300;
   font-size: 1rem;
+}
+
+.eLearningBody .eLearningTab {
+  padding: 0 0 3rem 0;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 53%
+  );
+}
+
+.eLearningBody .eLearningTab .eLearningLeft {
+  padding: 0 1rem 1rem 1rem;
+  background-color: var(--white);
+}
+
+.eLearningBody .eLearningTab .eLearningLeft h2 {
+  font-weight: 300;
+  font-weight: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.eLearningBody .eLearningTab .eLearningRight {
+  padding: 1rem 0 0 0;
+  color: var(--white);
+  width: 50%;
+  /* background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.1881127450980392) 0%,
+    rgba(255, 255, 255, 0) 30%
+  ); */
+}
+
+.eLearningBody .eLearningTab .eLearningRight h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.eLearningBody .eLearningTab .eLearningRight h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+}
+
+.eLearningBody .eLearningTab .eLearningRight ul li {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 300;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.eLearningBody .eLearningTab .eLearningRight ul li:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.eLearningBody .eLearningTab .eLearningRight .eDivider {
+  width: 15%;
+  margin: 0.5rem 0 2rem 0;
+  border-bottom: 2px solid var(--orange);
 }

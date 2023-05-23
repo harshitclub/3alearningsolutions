@@ -1,0 +1,81 @@
+form {
+  width: 100%;
+  background-color: var(--white);
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+form label {
+  font-size: 1rem;
+  color: var(--black);
+}
+
+form label span {
+  color: red;
+}
+
+form input {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border: 1px solid var(--grey2);
+  font-size: 1rem;
+  background: transparent;
+  margin: 0.5rem 0 0 0;
+}
+
+form input[type="file"] {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+form .fileUpload {
+  border: 1px dotted var(--grey2);
+  border-radius: 0.2rem;
+  padding: 2rem 0.5rem;
+}
+
+#uploadResume {
+  font-size: 2rem;
+  color: var(--grey2);
+}
+
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border: 1px solid var(--grey2);
+  font-size: 1rem;
+  background: transparent;
+  margin: 0.5rem 0 0 0;
+}
+
+form select {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border: 1px solid var(--grey2);
+  font-size: 1rem;
+  background: transparent;
+  margin: 0.5rem 0 0 0;
+}
+
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: var(--bgColor);
+  font-size: 1rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  transition: 0.3s;
+}

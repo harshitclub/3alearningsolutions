@@ -3,18 +3,18 @@
 }
 
 .contactSection .contactSContainer {
-  padding: 6rem 0;
+  padding: 0 0 6rem 0;
   background: rgb(255, 99, 0);
   background: radial-gradient(
     circle,
     rgba(255, 99, 0, 0.1881127450980392) 0%,
-    rgba(255, 255, 255, 0) 60%
+    rgba(255, 255, 255, 0) 55%
   );
 }
 
 .contactSection .contactSContainer .contactSCLeft {
   border: 1px solid white;
-  padding: 1rem 2rem 0 2rem;
+  padding: 0 1rem 1rem 1rem;
   background-color: var(--white);
 }
 
