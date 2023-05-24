@@ -1,0 +1,92 @@
+.corporateContainer .corporateContent p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+.corporateContainer .corporateContent .corporateBoxTab .corporateBox {
+  width: 33%;
+  background-color: var(--bgColor);
+  padding: 2rem 1rem;
+  color: var(--white);
+  border-radius: 0.2rem;
+}
+
+.corporateContainer .corporateContent .corporateBoxTab .corporateBox h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0 0 1rem 0;
+}
+
+.corporateContainer .corporateContent .corporateBoxTab .corporateBox p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.corporateCovered {
+  background-color: var(--bgColor);
+  color: var(--white);
+  padding: 3rem 0;
+}
+
+.corporateCovered .corporateCovTab h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+
+.corporateCovered .corporateCovTab h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.corporateCovered .corporateCovTab ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.techCovDivider {
+  border-bottom: 1px solid var(--orange);
+  width: 5%;
+  margin: 2rem 0;
+}
+
+.techCovIcons {
+  margin: 0 0 -0.22rem 0;
+  color: var(--orange);
+}
+
+.corporateCovered .corporateCovTab ul li {
+  margin: 0 1rem 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.corporateCatalogBtn {
+  border: 1px solid var(--orange);
+  display: inline-block;
+  margin: 2rem 0 0 0;
+  border-radius: 0.2rem;
+}
+
+.corporateCatalogBtn:hover {
+  background-color: var(--orange);
+  transition: 0.3s;
+}
+
+.corporateCatalogBtn:hover a {
+  color: var(--white);
+}
+
+.corporateCatalogBtn a {
+  color: var(--orange);
+}
+
+.corporateCatalogBtn a p {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
