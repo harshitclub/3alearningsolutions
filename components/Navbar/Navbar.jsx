@@ -35,28 +35,23 @@ const Navbar = () => {
               <li className="dropDownMenu">
                 TRAINING <RiArrowDownSLine className="navIcon" />
                 <ul>
-                  <li className="dropDownFirstLi">
-                    <a href="/corporate">CORPORATE</a>
-                  </li>
                   <li>
                     <a href="/individual">INDIVIDUAL</a>
                   </li>
                   <li>
                     <a href="/calendar">CALENDAR</a>
                   </li>
-                  <li>
-                    <a href="/e-learning">E-LEARNING</a>
-                  </li>
+
                   <li>
                     <a href="/events">EVENTS</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="/industries">INDUSTRIES</a>
+                <a href="/e-learning">E-LEARNING</a>
               </li>
               <li>
-                <a href="/company">COMPANY</a>
+                <a href="/corporate">CORPORATE</a>
               </li>
               <li>
                 <a href="/contact" className="navContact">
