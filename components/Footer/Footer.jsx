@@ -27,19 +27,19 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">Corporate</a>
+                <a href="/corporate">Corporate</a>
               </li>
               <li>
-                <a href="/">Individuals</a>
+                <a href="/individual">Individual</a>
               </li>
               <li>
-                <a href="/">Calendar</a>
+                <a href="/calendar">Calendar</a>
               </li>
               <li>
-                <a href="/">E-Learning</a>
+                <a href="/e-learning">E-Learning</a>
               </li>
               <li>
-                <a href="/">Events</a>
+                <a href="/events">Events</a>
               </li>
             </ul>
           </div>
@@ -81,19 +81,16 @@ const Footer = () => {
             </h4>
             <ul>
               <li>
-                <a href="/">About</a>
+                <a href="/contact">Contact</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="/programs">Programs</a>
               </li>
               <li>
-                <a href="/">Programs</a>
+                <a href="/join-us">Join Us</a>
               </li>
               <li>
-                <a href="/">Join Us</a>
-              </li>
-              <li>
-                <a href="/">Register</a>
+                <a href="/register">Register</a>
               </li>
             </ul>
           </div>

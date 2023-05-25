@@ -1,3 +1,7 @@
+.contactHeadBorder {
+  border-bottom: 1px solid #353935;
+}
+
 .contact .contactBody {
   background-color: var(--bgColor);
 }

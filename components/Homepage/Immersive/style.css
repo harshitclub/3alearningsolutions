@@ -28,16 +28,20 @@
 }
 
 .immersive .immersiveContainer .immersiveTab .immersiveBox {
-  border: 1px dotted var(--grey2);
+  border: 1px dotted var(--bgColor);
   padding: 1rem;
   width: 32.5%;
   height: 12rem;
   overflow: hidden;
   border-radius: 0.2rem;
+  background-color: var(--bgColor);
+  color: var(--white);
 }
 
 .immersive .immersiveContainer .immersiveTab .immersiveBox:hover {
   border: 1px dotted var(--orange);
+  background-color: #f5f5f5;
+  color: var(--black);
   transition: 0.3s;
 }
 

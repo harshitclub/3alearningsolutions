@@ -46,9 +46,15 @@
 }
 
 .serviceSection .serviceSContainer .serviceSecTab .serviceSecBox .orangeDash {
-  border-bottom: 2px solid var(--orange);
-  margin: 1rem 0;
+  border-bottom: 1px solid var(--orange);
+  margin: 1rem 0 0.5rem 0;
   width: 30%;
+}
+
+.serviceSection .serviceSContainer .serviceSecTab .serviceSecBox .orangeDash2 {
+  border-bottom: 1px solid var(--orange);
+  margin: 0 0 1rem 0;
+  width: 20%;
 }
 
 .serviceSection .serviceSContainer .serviceSecTab .serviceSecBox p {
