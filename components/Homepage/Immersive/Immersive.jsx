@@ -18,6 +18,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Our Approach</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Our digital learning approach is unique and agile. We're leaders
               in the learning ecosystem, providing you with high-quality
@@ -27,6 +28,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Rich Content</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Our customized content builds retention and application to work,
               ensuring you retain what you learn and apply it professionally.
@@ -35,6 +37,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Technology</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Our experienced team of developers and designers use the latest
               technology to create engaging, effective, and enjoyable learning
@@ -46,6 +49,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Flexible Learning Solutions</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Flexible digital learning solutions tailored to your needs.
               Self-paced, virtual, and blended learning formats available.
@@ -54,6 +58,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Relevant Curriculum</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Our courses keep you up-to-date with the latest industry trends
               and developments, helping you stay ahead in today's fast-paced
@@ -63,6 +68,7 @@ const Immersive = () => {
           <div className="immersiveBox">
             <h4>Support and Mentoring</h4>
             <div className="immersiveBoxHr"></div>
+            <div className="immersiveBoxHr2"></div>
             <p>
               Post-training support and mentoring to apply learning in your
               professional life. Experts available for guidance and advice to

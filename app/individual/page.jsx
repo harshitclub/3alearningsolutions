@@ -2,9 +2,9 @@ import "./style.css";
 
 const Individual = () => {
   return (
-    <main>
-      <h1>Individual</h1>
-    </main>
+    <>
+      <section className="individualContainer width100"></section>
+    </>
   );
 };
 

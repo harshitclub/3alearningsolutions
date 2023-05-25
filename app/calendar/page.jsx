@@ -8,11 +8,13 @@ const Calendar = () => {
       <section className="calendarContainer width100 flex alignCenter justifyCenter flexColumn">
         <div className="calendarContent width95 maxWidth">
           <h2>
-            UNLOCK YOUR LEARNING POTENTIAL <VscUnlock className="margin-2" />
+            UNLOCK YOUR LEARNING POTENTIAL{" "}
+            <VscUnlock className="margin-2 calendarContentIcon" />
             <br />
             <span>EXPLORE OUR UPCOMING PROGRAMS AND TRAINING</span>
           </h2>
           <div className="calDivider"></div>
+          <div className="calDivider2"></div>
           <p>
             Discover a world of knowledge and growth with our comprehensive
             calendar of upcoming programs and trainings. Stay ahead of the curve
@@ -36,7 +38,7 @@ const Calendar = () => {
                     Dates
                   </th>
                   <th scope="col" className="invest">
-                    Investment (₹)
+                    Price (₹)
                   </th>
                   <th scope="col" className="location">
                     Location

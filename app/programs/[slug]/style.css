@@ -1,0 +1,12 @@
+.programDetails .programDetailsContainer ul {
+  list-style: numeric;
+  list-style-position: inside;
+}
+
+.programDetails .programDetailsContainer ul li ul {
+  list-style: disc;
+}
+
+.programDetails .programDetailsContainer ul li ul li {
+  margin: 0 0 0 1rem !important;
+}

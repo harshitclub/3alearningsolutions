@@ -1099,8 +1099,8 @@ const page = () => {
   };
 
   return (
-    <section className="program flex alignCenter justifyCenter flexColumn width95">
-      <div className="programContainer width95 maxWidth flex justifyCenter alignStart spaceBtw">
+    <section className="program flex alignCenter justifyCenter flexColumn width100">
+      <div className="programContainer width95 maxWidth">
         <div className="programCLeft width48">
           <div className="programSelectTab width100">
             <div className="programSLeft width90">
@@ -1122,7 +1122,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="programCDivider"></div>
+        {/* <div className="programCDivider"></div> */}
         <div className="programCRight width50">
           <div className="programContent">
             {program === "" ? (

@@ -6,11 +6,13 @@ const Testimonials = () => {
       <div className="testSContainer width95 maxWidth">
         <h2>Testimonials</h2>
         <div className="testimonialHr"></div>
+        <div className="testimonialHr2"></div>
         <p>Discover what our clients have to say about us.</p>
         <div className="testTab flex alignStart justifyCenter spaceBtw">
           <div className="testBox">
             <h4>Hemant</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
             <h5>Citi Bank</h5>
 
             <p>
@@ -22,6 +24,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>Monica Gandhi</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
             <h5>Business Head (Technians)</h5>
             <p>
               "3a Learning solutions’ Salesforce training helped me and my team,
@@ -31,6 +34,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>L. Nihal</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
             <h5>Asst. Manager- JCB</h5>
             <p>
               "This is a great source of motivation for us too to move forward
@@ -41,6 +45,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>Mr. Harpreet</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
             <h5>Manager - JCB</h5>
             <p>
               "We were wasting time on excel sheet with the conventional
@@ -53,6 +58,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>WM Logistics</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
 
             <p>
               Workshop was eye-opening. Connected biases to team engagement &
@@ -63,6 +69,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>Fiserv</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
 
             <p>
               The quality of content and mode of training is exactly what we
@@ -74,6 +81,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>Suzuki Motorcycle</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
 
             <p>
               Their expertise in diversity and inclusion was super useful. We
@@ -85,6 +93,7 @@ const Testimonials = () => {
           <div className="testBox">
             <h4>HCL Technology</h4>
             <div className="testHr"></div>
+            <div className="testHr2"></div>
             <p>
               3a Learning Solutions was the perfect partner for our diversity
               and inclusion initiative. They understood our vision and brought

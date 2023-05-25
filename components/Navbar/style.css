@@ -45,6 +45,10 @@ header nav .navContainer .menu ul li ul li {
   margin: 1rem 0 0 0;
 }
 
+header nav .navContainer .menu ul .dropDownMenu {
+  cursor: pointer;
+}
+
 header nav .navContainer .menu ul .dropDownMenu:hover ul {
   display: block;
   position: absolute;
@@ -69,7 +73,7 @@ header nav .navContainer .menu ul li .navContact:hover {
 }
 
 .navIcon {
-  margin: 0 0 -0.3rem 0;
+  margin: 0 0 -0.2rem 0;
 }
 
 /* media queries */

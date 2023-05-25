@@ -1,7 +1,20 @@
+.calenderHeadBorder {
+  border-bottom: 1px solid #353935;
+}
+
 .calendarContainer {
   background-color: var(--bgColor);
   padding: 2rem 0 2rem 0;
   color: var(--white);
+}
+
+.calendarContainer .calendarContent {
+  padding: 0 0 2rem 0;
+  margin: 2rem 0 0 0;
+}
+
+.calendarContentIcon {
+  color: var(--orange);
 }
 
 .calendarContainer .calendarContent h2 {
@@ -14,9 +27,15 @@
 }
 
 .calDivider {
-  margin: 1rem 0;
+  margin: 1rem 0 0.5rem 0;
   width: 10%;
-  border-bottom: 2px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
+}
+
+.calDivider2 {
+  margin: 0 0 1rem 0;
+  width: 7%;
+  border-bottom: 1px solid var(--orange);
 }
 
 .calendarContainer .calendarContent p {
