@@ -47,9 +47,14 @@
 }
 
 .immersive .immersiveContainer .immersiveTab .immersiveBox .immersiveBoxHr {
-  border-bottom: 2px solid var(--orange);
-  margin: 1rem 0 0.5rem 0;
+  border-bottom: 1px solid var(--orange);
+  margin: 1rem 0 0.2rem 0;
   width: 15%;
+}
+.immersive .immersiveContainer .immersiveTab .immersiveBox .immersiveBoxHr2 {
+  border-bottom: 1px solid var(--orange);
+  margin: 0 0 0.5rem 0;
+  width: 10%;
 }
 
 .immersive .immersiveContainer .immersiveTab .immersiveBox p {

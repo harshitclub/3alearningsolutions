@@ -9,8 +9,14 @@
 }
 
 .clientSection .clientSContainer .clientHr {
-  border-bottom: 2px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
   width: 10%;
+  margin: 0 0 0.3rem 0;
+}
+
+.clientSection .clientSContainer .clientHr2 {
+  border-bottom: 1px solid var(--orange);
+  width: 7%;
   margin: 0 0 1rem 0;
 }
 

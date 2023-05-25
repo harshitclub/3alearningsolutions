@@ -23,6 +23,7 @@ const Clients = () => {
       <div className="clientSContainer width95 maxWidth flex alignStart justifyCenter flexColumn">
         <h2>OUR CLIENTS</h2>
         <div className="clientHr"></div>
+        <div className="clientHr2"></div>
         <p>
           Empowering professionals globally with our training solutions - 80+
           companies and counting.

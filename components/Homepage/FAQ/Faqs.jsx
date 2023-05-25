@@ -27,6 +27,7 @@ const Faqs = () => {
       <div className="faqContainer width95 maxWidth">
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
         <div className="faqHr"></div>
+        <div className="faqHr2"></div>
         <p>Find Everything You Need to Know</p>
         <div className="faqTab flex alignStart justifyCenter spaceBtw">
           {faqTab1.map((faq) => {

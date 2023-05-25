@@ -12,6 +12,9 @@ const Corporate = () => {
     <>
       <section className="corporateContainer width100 flex alignCenter justifyCenter flexColumn">
         <div className="corporateContent maxWidth width95">
+          <h2>Empower Your Workforce with Cutting-Edge Training Solutions</h2>
+          <div className="corporateDivider"></div>
+          <div className="corporateDivider2"></div>
           <p className="marginBottom1">
             At 3a Learning Solutions, we have built a strong reputation as the
             leading provider of customized training solutions for corporations.
@@ -53,14 +56,27 @@ const Corporate = () => {
             <li>Node</li>
             <li>Express</li>
             <li>MERN</li>
-            <li>Etc</li>
+            <li>Big Data</li>
+            <li>MySql</li>
+            <li>MongoDB</li>
+            <li>Rust</li>
+            <li>TypeScript </li>
+            <li>MATLAB</li>
+            <li>Perl</li>
+            <li>Scala</li>
+            <li>Groovy</li>
+            <li>Lua</li>
+            <li>Shell Scripting</li>
+            <li className="exporeBtn">
+              <a href="/programs">Expore More</a>
+            </li>
           </ul>
           <div className="techCovDivider"></div>
           <h4>
             Networking <RiGlobalLine className="techCovIcons" />
           </h4>
           <ul>
-            <li>GCP</li>
+            <li>CCNA</li>
             <li>Azure</li>
             <li>Devops</li>
             <li>VmWare</li>
@@ -68,7 +84,19 @@ const Corporate = () => {
             <li>Linux</li>
             <li>MCSA</li>
             <li>SCCM</li>
-            <li>Etc</li>
+            <li>CCNA</li>
+            <li>CCNP</li>
+            <li>CCIE</li>
+            <li>JNCIA</li>
+            <li>JNCIP</li>
+            <li>Wireshark</li>
+            <li>Network Virtualization</li>
+            <li>SD-WAN</li>
+            <li>Network Security</li>
+            <li>F5 Load Balancer</li>
+            <li className="exporeBtn">
+              <a href="/programs">Expore More</a>
+            </li>
           </ul>
           <div className="techCovDivider"></div>
           <h4>
@@ -81,9 +109,23 @@ const Corporate = () => {
             <li>Django</li>
             <li>Kotlin</li>
             <li>Android</li>
-            <li>AI</li>
-            <li>ML</li>
-            <li>Etc</li>
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Neo4j</li>
+            <li>Hadoop</li>
+            <li>Spark</li>
+            <li>Kafka</li>
+            <li>Cassandra</li>
+            <li>HBase</li>
+            <li>Hive</li>
+            <li>Sqoop</li>
+            <li>Elasticsearch</li>
+            <li>Apache Solr</li>
+            <li>Apache CouchDB</li>
+            <li>Apache Ignite</li>
+            <li className="exporeBtn">
+              <a href="/programs">Expore More</a>
+            </li>
           </ul>
           <div className="techCovDivider"></div>
           <h4>
@@ -98,7 +140,24 @@ const Corporate = () => {
             <li>Ansys</li>
             <li>SolidWorks</li>
             <li>Unigraphic</li>
-            <li>Etc</li>
+            <li>AutoCAD</li>
+            <li>CATIA</li>
+            <li>Blender</li>
+            <li>Maya</li>
+            <li>Rhino</li>
+            <li>ArchiCAD</li>
+            <li>Pro/ENGINEER (Creo)</li>
+            <li>Solid Edge</li>
+            <li>Vectorworks</li>
+            <li>ZBrush</li>
+            <li>Fusion 360</li>
+            <li>SketchUp Pro</li>
+            <li>SketchBook</li>
+            <li>V-Ray</li>
+            <li>Substance Designer</li>
+            <li className="exporeBtn">
+              <a href="/programs">Expore More</a>
+            </li>
           </ul>
           <div className="techCovDivider"></div>
           <h4>
@@ -113,7 +172,22 @@ const Corporate = () => {
             <li>Spoken English</li>
             <li>German Language</li>
             <li>Japanese Language</li>
-            <li>Etc</li>
+            <li>Talent Acquisition</li>
+            <li>Employee Relations</li>
+            <li>Performance Management</li>
+            <li>Compensation and Benefits</li>
+            <li>Employee Engagement</li>
+            <li>Workforce Planning</li>
+            <li>Talent Management</li>
+            <li>Onboarding and Offboarding Processes</li>
+            <li>HR Policies and Procedures</li>
+            <li>HR Metrics and Analytics</li>
+            <li>HRIS</li>
+            <li>Change Management</li>
+            <li>Training and Development</li>
+            <li className="exporeBtn">
+              <a href="/programs">Expore More</a>
+            </li>
           </ul>
 
           <div className="corporateCatalogBtn">
