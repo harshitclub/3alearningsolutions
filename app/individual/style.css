@@ -1,0 +1,122 @@
+.indiHeadBorder {
+  border-bottom: 1px solid #353935;
+}
+
+.indiContentContainer {
+  padding: 2rem 0;
+}
+
+.indiContentContainer .indiContent p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.indiContentContainer .indiContent ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.indiContentContainer .indiContent ul li {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0 0 0.5rem 0;
+}
+
+.indiTechContainer {
+  background-color: var(--bgColor);
+  color: var(--white);
+}
+
+.indiTechContainer .indiTech {
+  padding: 2rem 0 0 0;
+}
+
+.indiTechContainer .indiTech h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.indiTechContainer .indiTech .indiTechDivider {
+  width: 15%;
+  border-bottom: 1px solid var(--orange);
+  margin: 2rem 0 0.3rem 0;
+}
+
+.indiTechContainer .indiTech .indiTechDivider2 {
+  width: 10%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.indiTechContainer .indiTech .indiTechImages {
+  flex-wrap: wrap;
+  gap: 1px;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 0.5775560224089635) -50%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  padding: 4rem 0 0 0;
+}
+
+.indiTechContainer .indiTech .indiTechImages .iCard {
+  width: 24%;
+  position: relative;
+}
+
+.indiTechContainer .indiTech .indiTechImages .iCard:hover .iCardContent {
+  opacity: 1;
+}
+
+.indiTechContainer .indiTech .indiTechImages .iCard .iCardContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background: rgb(255, 99, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 99, 0, 1) -50%,
+    rgba(255, 99, 0, 0.7988445378151261) 100%
+  );
+}
+
+.indiTechContainer
+  .indiTech
+  .indiTechImages
+  .iCard
+  .iCardContent
+  .iCardHeading {
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.indiTechContainer
+  .indiTech
+  .indiTechImages
+  .iCard
+  .iCardContent
+  .iCardHeading
+  h3 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.indiTechContainer .indiTech .indiTechImages .iCard img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,43 @@
+.pageSubHeader {
+  background-color: var(--bgColor);
+  padding: 2rem 0 2rem 0;
+  color: var(--white);
+}
+
+.pageSubHeader .pageSubHeaderContent {
+  padding: 0 0 2rem 0;
+  margin: 2rem 0 0 0;
+}
+
+.calendarContentIcon {
+  color: var(--orange);
+}
+
+.pageSubHeader .pageSubHeaderContent h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.pageSubHeader .pageSubHeaderContent h2 span {
+  font-size: 1.5rem;
+}
+
+.pageSubDivider {
+  margin: 1rem 0 0.5rem 0;
+  width: 10%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.pageSubDivider2 {
+  margin: 0 0 1rem 0;
+  width: 7%;
+  border-bottom: 1px solid var(--orange);
+}
+
+.pageSubHeader .pageSubHeaderContent p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: justify;
+}

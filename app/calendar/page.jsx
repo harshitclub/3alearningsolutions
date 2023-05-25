@@ -1,28 +1,19 @@
 import "./style.css";
 import { VscUnlock } from "react-icons/vsc";
 import { CalendarDetails } from "./programData";
+import PageSubHeader from "@/components/PageSubHeader/PageSubHeader";
 
 const Calendar = () => {
   return (
     <>
-      <section className="calendarContainer width100 flex alignCenter justifyCenter flexColumn">
-        <div className="calendarContent width95 maxWidth">
-          <h2>
-            UNLOCK YOUR LEARNING POTENTIAL{" "}
-            <VscUnlock className="margin-2 calendarContentIcon" />
-            <br />
-            <span>EXPLORE OUR UPCOMING PROGRAMS AND TRAINING</span>
-          </h2>
-          <div className="calDivider"></div>
-          <div className="calDivider2"></div>
-          <p>
-            Discover a world of knowledge and growth with our comprehensive
-            calendar of upcoming programs and trainings. Stay ahead of the curve
-            and unlock your potential by exploring a diverse range of learning
-            opportunities throughout the year.
-          </p>
-        </div>
-      </section>
+      <PageSubHeader
+        heading="UNLOCK YOUR LEARNING POTENTIAL"
+        subHeading="EXPLORE OUR UPCOMING PROGRAMS AND TRAINING"
+        para="Discover a world of knowledge and growth with our comprehensive
+        calendar of upcoming programs and trainings. Stay ahead of the curve
+        and unlock your potential by exploring a diverse range of learning
+        opportunities throughout the year."
+      />
       <section className="calendarData flex alignCenter justifyCenter flexColumn width100">
         <div className="calendarTab width95">
           <h2>Upcoming Open House Training Programs Online (2023)</h2>

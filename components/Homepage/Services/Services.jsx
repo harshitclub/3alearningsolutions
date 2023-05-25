@@ -13,6 +13,7 @@ const Services = () => {
           <div className="serviceSecBox">
             <h4>Product-Oriented Trainings</h4>
             <div className="orangeDash"></div>
+            <div className="orangeDash2"></div>
             <p>
               Our product-oriented training solutions are designed to help
               individuals and organizations develop the skills and knowledge
@@ -29,6 +30,7 @@ const Services = () => {
           <div className="serviceSecBox">
             <h4>People Development Trainings</h4>
             <div className="orangeDash"></div>
+            <div className="orangeDash2"></div>
             <p>
               We understand that developing technical skills alone is not enough
               to achieve success - people skills are equally important. That's
@@ -45,6 +47,7 @@ const Services = () => {
           <div className="serviceSecBox">
             <h4>Process-Oriented Trainings</h4>
             <div className="orangeDash"></div>
+            <div className="orangeDash2"></div>
             <p>
               We understand that processes play a critical role in achieving
               organizational success. That's why we offer process-oriented

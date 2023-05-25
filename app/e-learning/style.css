@@ -1,28 +1,13 @@
+.eLearningHeadBorder {
+  border-bottom: 1px solid #353935;
+}
+
 .eLearningBody {
   background-color: var(--bgColor);
 }
 
-.eLearningExperties .eLearningETab h2 {
-  font-size: 2rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
 .eLearningExperties .eLearningETab {
-  padding: 3rem 0 4rem 0;
-}
-
-.eLearningExperties .eLearningETab .eDivider {
-  width: 10%;
-  border-bottom: 2px solid var(--orange);
-  margin: 0.5rem 0 1rem 0;
-}
-
-.eLearningExperties .eLearningETab p {
-  font-size: 1.1rem;
-  font-weight: 300;
-  text-align: justify;
-  line-height: 1.5rem;
+  padding: 2rem 0 4rem 0;
 }
 
 .eLearningExperties .eLearningETab .eLearningEBoxes {
@@ -71,8 +56,18 @@
 
 .eLearningExperties .eLearningETab .eLearningEBoxes .eLearningBox .eBoxDivider {
   width: 20%;
-  border-bottom: 2px solid var(--orange);
-  margin: 0.4rem 0 1rem 0;
+  border-bottom: 1px solid var(--orange);
+  margin: 0.4rem 0 0.3rem 0;
+}
+
+.eLearningExperties
+  .eLearningETab
+  .eLearningEBoxes
+  .eLearningBox
+  .eBoxDivider2 {
+  width: 15%;
+  border-bottom: 1px solid var(--orange);
+  margin: 0 0 1rem 0;
 }
 
 .eLearningExperties .eLearningETab .eLearningEBoxes .eLearningBox p {
