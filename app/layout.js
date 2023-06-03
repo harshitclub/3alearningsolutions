@@ -9,8 +9,8 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "3a Learning Solutions",
-  description: "3a Learning Solutions",
+  title: "demo",
+  description: "demo",
 };
 
 export default function RootLayout({ children }) {

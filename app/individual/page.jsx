@@ -58,7 +58,7 @@ const Individual = () => {
         </div>
       </section>
       <section className="indiTechContainer width100 flex alignCenter justifyCenter flexColumn">
-        <div className="indiTech width95 flex alignStart justifyStart flexColumn">
+        <div className="indiTech width95 flex alignStart justifyStart flexColumn maxWidth">
           <h2>Launch Your Career with Top Industry Courses!</h2>
           <div className="indiTechDivider"></div>
           <div className="indiTechDivider2"></div>
