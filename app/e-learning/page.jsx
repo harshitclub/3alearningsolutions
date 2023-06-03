@@ -10,7 +10,7 @@ const ELearning = () => {
         subHeading="Unlocking Your Potential through Customized e-Learning Solutions"
         para="At 3a Learning Solutions, we are dedicated to providing top-notch custom eLearning content creation services tailored specifically for corporates across diverse industry sectors. We understand that each organization has unique training requirements and objectives, and we are here to meet those needs with our expertise and experience in eLearning development."
       />
-      <section className="eLearningExperties width95">
+      <section className="eLearningExperties width95 maxWidth">
         <div className="eLearningETab width100">
           <div className="eLearningEBoxes flex alignStart justifyCenter spaceBtw">
             <div className="eLearningBox">
